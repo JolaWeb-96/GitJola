@@ -3,14 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="mike.css" />
+    <title>Recruit Form</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>Hello World</div>
-    <p>I am here</p>
-
-    <h1>I am new heading</h1>
-    <h2>i am a smaller paragraph</h2>
+    <h1>RECRUIT APPLICANTS ONLY</h1>
+    <form>
+      <label for="Firstname">First Name:</label>
+      <input type="text" name="First Name" placeholder="First Name Here" />
+      <br />
+      <br />
+      <label for="Last Name">Last Name:</label>
+      <input type="text" name="Last Name" placeholder="Last Name Here" />
+      <br />
+      <br />
+      <label for="Gender">Gender:</label>
+      <label for="Male">Male</label>
+      <input type="checkbox" name="Male" id="Male" required />
+      <label for="Female">Female</label>
+      <input type="checkbox" name="Female" id="Female" required />
+      <label for="Others">Others</label>
+      <input type="checkbox" name="Other" id="Other" required />
+      <br />
+      <br />
+      <label for="Email">Email</label>
+      <input type="Email" name="Email" placeholder="email456@example.com" />
+      <br />
+      <br />
+      <label for="Password">Password</label>
+      <input type="text" name="Password" id="password" placeholder="password" />
+      <br />
+      <br />
+       <label for="DOB">DOB</label>
+      <input type="numbers" name="numbers" id="numbers" placeholder="Date Of Birth" />
+      <br />
+      <br />
+<label for="checkbox">I hereby plegde for the safety of my country</label>
+<input type="radio" name="radio" id="radio">
+<br>
+<br>
+<input type="submit" value="Register">
   </body>
 </html>
